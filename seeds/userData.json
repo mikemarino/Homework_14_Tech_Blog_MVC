@@ -1,0 +1,47 @@
+[
+  {
+    "first_name": "Sal",
+    "email": "sal@hotmail.com",
+    "password": "password12345"
+  },
+  {
+    "first_name": "Lernantino",
+    "email": "lernantino@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "first_name": "Amiko",
+    "email": "amiko2k20@aol.com",
+    "password": "password12345"
+  },
+{
+  "first_name": "Mike",
+  "middle_name": "",
+  "last_name": "Marino",
+  "mobile": "2155550001",
+  "email": "marino1820@gmail.com",
+  "password":"password1234",
+  "intro": "Hey This is my Blog",
+  "profile": "Don't give up."
+},
+{
+  "first_name": "Sara",
+  "middle_name": "",
+  "last_name": "Kersnick",
+  "mobile": "2155550002",
+  "email": "sara.kersnick@gmail.com",
+  "password":"password1234",
+  "intro": "Hey This is my Husbands Blog",
+  "profile": "Do it for her."
+},
+{
+  "first_name": "Eleanor",
+  "middle_name": "",
+  "last_name": "Marino",
+  "mobile": "2155550003",
+  "email": "EMCSquare@gmail.com",
+  "password":"password1234",
+  "intro": "Hey This is my Daddy's Blog",
+  "profile": "Counting on you."
+}
+]
