@@ -1,0 +1,41 @@
+[{
+        "author_id": 1,
+        "post_id": 1,
+        "parent_id": 1,
+        "title": "First Blog Post Seed",
+        "published": "yes",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "author_id": 2,
+        "post_id": 1,
+        "parent_id": 1,
+        "title": "First Blog Post Seed",
+        "published": "yes",
+        "content": "Integer ac pretium magna. "
+    },
+    {
+        "author_id": 3,
+        "post_id": 1,
+        "parent_id": 2,
+        "title": "First Blog Post Seed",
+        "published": "yes",
+        "content": " Etiam ut elementum tellus, nec volutpat mauris. Nunc consectetur pharetra tellus eu sodales. "
+    },
+    {
+        "author_id": 2,
+        "post_id": 2,
+        "parent_id": 4,
+        "title": "First Blog Post Seed",
+        "published": "yes",
+        "content": " Aliquam placerat mattis diam, non egestas nunc luctus quis. Vestibulum rutrum tellus vitae quam tincidunt, id mattis augue luctus."
+    },
+    {
+        "author_id": 1,
+        "post_id": 2,
+        "parent_id": 4,
+        "title": "First Blog Post Seed",
+        "published": "yes",
+        "content": "Duis iaculis commodo quam, eleifend volutpat lectus pretium vel. Sed ac enim nunc. Curabitur vitae nisl sem."
+    }
+]

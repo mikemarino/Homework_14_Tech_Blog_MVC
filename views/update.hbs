@@ -1,0 +1,22 @@
+<div class="col-md-12 update-form">
+    <h3>Update This Post:</h3>
+    <form class="form ">
+    <div class="form-group">
+        <label for="post-title">The post title to be displayed on the Post Page and the lists:</label>
+        <input class="form-input" type="text" id="post-title" name="post-title" value="{{title}}" />
+    </div>
+    <div class="form-group">
+        <label for="post-summary">The summary of the post to mention the key highlights:</label>
+        <input class="form-input" type="text" id="post-summary" name="post-summary" value="{{summary}}" />
+    </div>
+    <div class="form-group">
+        <label for="post-content">Post Content:</label>
+        <textarea class="form-input" id="post-content" name="post-content" value="">{{content}}</textarea>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary" data-updateid="{{id}}">Update</button>
+    </div>
+    </form>
+</div>
+
+<script src="/js/update.js"></script>

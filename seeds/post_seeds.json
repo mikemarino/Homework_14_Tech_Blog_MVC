@@ -1,32 +1,32 @@
 [
 {
-    "author_name": 1,
+    "author_id": 3,
     "parent_id": 1,
-    "title": "First Blog Post Seed",
+    "title": "Material Icons Guide",
     "meta_title": "First",
-    "slug": "I DONT KNOW WHAT THIS IS",
-    "summary":"Summarize blog here",
+    "slug": "https://developers.google.com/fonts/docs/material_icons",
+    "summary":"An overview of material icons—where to get them and how to integrate them with your projects.",
     "published": 1,
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac pretium magna. Aliquam sit amet ex efficitur velit dignissim accumsan. Pellentesque aliquet nulla ut pellentesque dignissim. Etiam ut elementum tellus, nec volutpat mauris. Nunc consectetur pharetra tellus eu sodales. Aliquam placerat mattis diam, non egestas nunc luctus quis. Vestibulum rutrum tellus vitae quam tincidunt, id mattis augue luctus. Duis iaculis commodo quam, eleifend volutpat lectus pretium vel. Sed ac enim nunc. Curabitur vitae nisl sem."
+    "content": "<b>What are material icons?</b><p>Material design system icons are simple, modern, friendly, and sometimes quirky. Each icon is created using our design guidelines to depict in simple and minimal forms the universal concepts used commonly throughout a UI. Ensuring readability and clarity at both large and small sizes, these icons have been optimized for beautiful display on all common platforms and display resolutions.</p> See the full set of material design icons in the Material Icons Library."
 },
 {
-    "author_name": 2,
+    "author_id": 2,
     "parent_id": 1,
-    "title": "Second Blog Post Seed",
+    "title": "Bootstrap 5",
     "meta_title": "First",
-    "slug": "I DONT KNOW WHAT THIS IS",
-    "summary":"Summarize blog here",
+    "slug": "https://blog.getbootstrap.com/",
+    "summary":"What is Bootstrap?",
     "published": 1,
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac pretium magna. Aliquam sit amet ex efficitur velit dignissim accumsan. Pellentesque aliquet nulla ut pellentesque dignissim. Etiam ut elementum tellus, nec volutpat mauris. Nunc consectetur pharetra tellus eu sodales. Aliquam placerat mattis diam, non egestas nunc luctus quis. Vestibulum rutrum tellus vitae quam tincidunt, id mattis augue luctus. Duis iaculis commodo quam, eleifend volutpat lectus pretium vel. Sed ac enim nunc. Curabitur vitae nisl sem."
+    "content": "Bootstrap is a free front-end framework for faster and easier web development Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins Bootstrap also gives you the ability to easily create responsive designs"
 },
 {
-    "author_name": 1,
+    "author_id": 1,
     "parent_id": 1,
-    "title": "Third Blog Post Seed",
+    "title": "Handlebars JS",
     "meta_title": "First",
-    "slug": "I DONT KNOW WHAT THIS IS",
-    "summary":"Summarize blog here",
+    "slug": "https://handlebarsjs.com/",
+    "summary":"Minimal templating on steroids",
     "published": 1,
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac pretium magna. Aliquam sit amet ex efficitur velit dignissim accumsan. Pellentesque aliquet nulla ut pellentesque dignissim. Etiam ut elementum tellus, nec volutpat mauris. Nunc consectetur pharetra tellus eu sodales. Aliquam placerat mattis diam, non egestas nunc luctus quis. Vestibulum rutrum tellus vitae quam tincidunt, id mattis augue luctus. Duis iaculis commodo quam, eleifend volutpat lectus pretium vel. Sed ac enim nunc. Curabitur vitae nisl sem."
+    "content": "Semantic templates: Handlebars provides the power necessary to let you build semantic templates effectively with no frustration. Mustache-compatible: Handlebars is largely compatible with Mustache templates. In most cases it is possible to swap out Mustache with Handlebars and continue using your current templates. Fast execution: Handlebars compiles templates into JavaScript functions. This makes the template execution faster than most other template engines."
 }
-]
+]   

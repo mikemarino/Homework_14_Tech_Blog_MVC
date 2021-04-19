@@ -27,9 +27,9 @@ Post.hasMany(Post, {
 })
 
 Post_comment.belongsTo(Post_comment, {
-  as: 'parentComment',
+  // as: 'parentComment',
   foreignKey: 'parent_id',
-  targetKey: 'id'
+  // targetKey: 'id'
 });
 
 Post_comment.hasMany(Post_comment, {
@@ -67,6 +67,13 @@ Post_comment.belongsTo(Post, {
   foreignKey: 'post_id'
 })
 
+Post.hasMany(Post_comment, {
+  foreignKey: 'post_id'
+})
+
+Post_comment.belongsTo(User, {
+  foreignKey: 'author_id'
+})
 
 
 

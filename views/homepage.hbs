@@ -1,54 +1,36 @@
 <!-- Loop over each object in the projects array -->
 
 <div class="row ">
-   <div class="col-sm-12 col-md-12 col-lg-12  border1">
+   <div class="col-sm-12 col-md-12 col-lg-12  ">
 <h2>Techno Cervello Blog</h2>
 <strong>Read on for in-depth articles, tutorials, and videos.  Be sure to subscribe if you'd like to be notified when we write something new.</strong>
 
    </div>
 </div>
 
-<div class="row mt-3">
+<div class="row mt-3 mb-3">
 
 
-  <div class="col-sm-8 col-md-8 col-lg-8 ml-4 mr-4 border1">
+  <div class="col-sm-8 col-md-8 col-lg-8 ml-4 mr-4 rounded shadow-lg">
 
 {{#each posts as |post| }}
-<div class="row mb-3 post">
-  <div class="col-sm-3 col-md-3 col-lg-3 border1">
+<div class="row mt-3 mb-3 post">
+  <div class="col-sm-3 col-md-3 col-lg-3 ">
     </div>
-     <div class="col-sm-9 col-md-9 col-lg-9 border1">
+    <div class="col-sm-9 col-md-9 col-lg-9 ">
 <h2>
       <!-- Call helper function with triple brackets to render the emoji span as HTML -->
       <a href="/post/{{post.id}}">{{post.title}}</a>
-       </h2>
-     
-     <p>By: {{post.author_id}} | {{format_date post.created_at}} | 100 COMMENTS </p>
-       <br />
-       {{post.content}}
+      </h2> 
+    <p>By: {{user.first_name}} {{user.last_name}} | {{format_date post.created_at}} | {{post_comments.length}} COMMENTS </p>      
+     <p>{{{post.content}}}</p>
+      <br />
 
     </div>
-    
-      {{!-- {{{get_emoji}}}
-      {{post.id}} {{post.title}}
-   
-    <p>
-      <span for="img" aria-label="money">💲</span>
-      <!-- Pass needed_funding value to the helper function -->
-      <span class="dollar-amount">{{post.summary}}</span>
-      needed!
-    </p>
-    
-  </div>
-  <div class="col-md-7">
-    <p>
-      {{post.content}}
-    </p>
-  </div> --}}
 </div>
 {{/each}}
   </div>
-  <div class="col-sm-3 col-md-3 col-lg-3 ml-4 border1">
+  <div class="col-sm-3 col-md-3 col-lg-3 ml-4 rounded shadow-lg">
 <h3>Techno Weekly</h3>
 <h6>Subscribe to Blog (free)</h6>
 <form class="form signup-form">

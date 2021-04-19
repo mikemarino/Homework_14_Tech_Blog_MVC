@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -26,12 +26,12 @@
 <body>
   <div class="container justify-space-around">
 
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light ">
        <div class="ml-auto">
            <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
-        <a href="/profile"><span class="material-icons">person</span></a>
-        <button class="no-button right" id="logout"><span class="material-icons">logout</span></button>
+        <a href="/profile"><span class="material-icons header-icons">person</span></a>
+        <button class="no-button right" id="logout"><span class="material-icons header-icons">logout</span></button>
         
         {{else}}
         <a href="/login"><span class="material-icons">login</span></a>
@@ -42,10 +42,10 @@
       <img src="/imgs/logo.png" id="logo">
     </div>
   <div class="d-flex align-items-center justify-content-end col-sm-1 col-md-1 col-lg-1 border">
-    About
+    ABOUT
   </div>
   <div class="d-flex align-items-center col-sm-1 col-md-1 col-lg-1 border">
-    <a href="/">Blog</a>
+    <a href="/">BLOG</a>
   </div>
 
 </div>
@@ -64,5 +64,6 @@
   <script src="/js/logout.js"></script>
   {{/if}}
 </body>
-
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 </html>

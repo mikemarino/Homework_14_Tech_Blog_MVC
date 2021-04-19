@@ -14,10 +14,19 @@ Post_comment.init({
         primaryKey: true,
         autoIncrement: true,
     },
+    // 	The author id to identify the comment author.
+    author_id: {
+        type: DataTypes.INTEGER,
+        allowNull: true,
+        references: {
+            model: 'user',
+            key: 'id',
+        }
+    },
     // 	The comment id to identify the parent comment.
     post_id: {
         type: DataTypes.INTEGER,
-        allowNull: false,
+        allowNull: true,
         references: {
             model: 'post',
             key: 'id',
@@ -35,14 +44,14 @@ Post_comment.init({
     // 	The post title to be displayed on the Post_comment Page and the lists..
     title: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: true,
     },
 
     // It can be used to identify whether the comment is publicly available.
     published: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
         allowNull: true,
-        defaultValue: DataTypes.NOW,
+        // defaultValue: DataTypes.NOW,
     },
     // It stores the date and time at which the comment is created.
     created_at: {

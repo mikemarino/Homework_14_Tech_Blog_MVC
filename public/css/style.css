@@ -1,5 +1,6 @@
+
 header, .post:not(:last-child) {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #008000;
 }
 
 .no-button {
@@ -27,3 +28,5 @@ header, .post:not(:last-child) {
 	border: solid 1px !important;
 	border-color: chocolate !important;
 }
+
+.header-icons { font-size: 36px; };
