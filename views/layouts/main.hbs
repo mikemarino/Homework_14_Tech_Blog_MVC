@@ -30,8 +30,8 @@
        <div class="ml-auto">
            <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
-        <a href="/profile"><span class="material-icons header-icons">person</span></a>
-        <button class="no-button right" id="logout"><span class="material-icons header-icons">logout</span></button>
+        <a href="/profile"><span class="material-icons header-icons" data-toggle="tooltip" data-placement="bottom" title="User Dashboard">person</span></a>
+        <button class="no-button right" id="logout" data-toggle="tooltip" data-placement="bottom" title="Log Out"><span class="material-icons header-icons">logout</span></button>
         
         {{else}}
         <a href="/login"><span class="material-icons">login</span></a>
