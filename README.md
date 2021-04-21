@@ -16,7 +16,7 @@
 
 a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. 
 
-![picture alt](http://via.placeholder.com/200x150 "Tech Blog")
+![picture alt](screenshot.jpg "Tech Blog")
 
 This project may have some requeriments you need to meet in order to compile it. 
 You may need NodeJS in order to run javascript on the console and install dependecnies. You can go to the NodeJS site and follow trough the installation process.  After you get the node command on the console, you will have the node package manager npm as well. Please read the package instruction section below.
