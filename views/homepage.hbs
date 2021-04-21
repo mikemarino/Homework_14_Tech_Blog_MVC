@@ -23,7 +23,7 @@
       <a href="/post/{{post.id}}">{{post.title}}</a>
       </h2> 
     <p>By: {{user.first_name}} {{user.last_name}} | {{format_date post.created_at}} | {{post_comments.length}} COMMENTS </p>      
-     <p>{{{post.content}}}</p>
+    <p>{{{post.summary}}}</p> <a href="/post/{{post.id}}">Read more...</a>
       <br />
 
     </div>

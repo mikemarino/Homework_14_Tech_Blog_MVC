@@ -45,3 +45,26 @@ document
 // document
 //     .querySelector('.post-list')
 //     .addEventListener('click', delButtonHandler);
+
+const newCommentHandler = async a => {
+    console.log("HEY"), a.preventDefault();
+    const b = document.querySelector("#comment-text").value.trim();
+    if (console.log("HEY"), a.target.hasAttribute("data-commentid")) {
+        const c = a.target.getAttribute("data-commentid");
+        if (console.log("HEYas dfafsd"), console.log(c), c && b) {
+            console.log(c);
+            const a = await fetch(`/api/comments`, {
+                method: "POST",
+                body: JSON.stringify({
+                    post_id: c,
+                    content: b
+                }),
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            });
+            a.ok ? (console.log("HEY"), document.location.reload()) : alert("Failed to create post")
+        }
+    }
+};
+document.querySelector(".new-comment-form").addEventListener("click", newCommentHandler);
